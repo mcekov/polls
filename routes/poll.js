@@ -6,10 +6,11 @@ const Vote = require('../models/Vote');
 
 const Pusher = require('pusher');
 
+// Add App key, secret and id from your MLab account
 let pusher = new Pusher({
-    appId: '524136',
-    key: '24f9a55f5dea39ccb061',
-    secret: '876c041a2c5e45741a8c',
+    appId: '',
+    key: '',
+    secret: '',
     cluster: 'eu',
     encrypted: true
 });
