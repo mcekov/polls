@@ -6,7 +6,7 @@ const Vote = require('../models/Vote');
 
 const Pusher = require('pusher');
 
-// Add App key, secret and id from your MLab account
+// Add App key, secret and id from your MLab account.
 let pusher = new Pusher({
     appId: '',
     key: '',
